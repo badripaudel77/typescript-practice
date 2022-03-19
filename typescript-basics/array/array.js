@@ -1,7 +1,8 @@
-// syntax : let arrayName: type[];
-var fruits; // declare the fruits array of type string
-fruits = ["Apple", "Banana", "Orange"]; // initialize the array
-console.log("fruits: " + fruits);
+"use strict";
+exports.__esModule = true;
+exports.fruits = void 0;
+exports.fruits = ["Apple", "Banana", "Orange"]; // initialize the array
+console.log("fruits: " + exports.fruits);
 var skills = ["HTML", "CSS", "JavaScript"];
 skills.push("TypeScript"); // add an element to the end of the array
 skills[0] = "HTML5"; // replace the first element of the array
@@ -13,3 +14,8 @@ console.log("js type mixedArray: " + mixedArray); // noraml
 var mixedArray_; // either number or string
 mixedArray_ = ['Apple', 123, 'Banana', 456, 'TypeScript'];
 console.log("ts type mixedArray: " + mixedArray_); // typescript type mixed array
+// tuple in typescript
+var tuple; // fixed number of items string and a number and order is important
+tuple = ['Apple', 123];
+// tuple = [23, 'orange']; // error as error matching the tuple type [order matters here]
+console.log("tuple: " + tuple);

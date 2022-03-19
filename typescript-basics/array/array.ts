@@ -1,3 +1,4 @@
+ export
 // syntax : let arrayName: type[];
 
 let fruits: string[]; // declare the fruits array of type string
