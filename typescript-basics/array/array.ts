@@ -31,5 +31,8 @@ anyVariable = 'Apple';
 anyVariable = 123;
 console.log("anyVariable: " + anyVariable);
 
-
-
+// void type
+let voidVariable: void;
+voidVariable = undefined;
+// voidVariable = 12; // error as the required type of the variable is void
+console.log("voidVariable: " + voidVariable);
