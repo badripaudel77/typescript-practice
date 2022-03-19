@@ -25,5 +25,11 @@ tuple = ['Apple', 123];
 // tuple = [23, 'orange']; // error as error matching the tuple type [order matters here]
 console.log("tuple: " + tuple); 
 
+// type of any , this is also a default type if not specified
+let anyVariable: any;
+anyVariable = 'Apple';
+anyVariable = 123;
+console.log("anyVariable: " + anyVariable);
+
 
 

@@ -19,3 +19,8 @@ var tuple; // fixed number of items string and a number and order is important
 tuple = ['Apple', 123];
 // tuple = [23, 'orange']; // error as error matching the tuple type [order matters here]
 console.log("tuple: " + tuple);
+// type of any , this is also a default type if not specified
+var anyVariable;
+anyVariable = 'Apple';
+anyVariable = 123;
+console.log("anyVariable: " + anyVariable);
