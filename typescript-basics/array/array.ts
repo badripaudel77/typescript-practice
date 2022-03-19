@@ -15,7 +15,7 @@ console.log("skills: " + skills);
 let mixedArray = ['Apple', 123, 'Banana', 456];
 console.log("js type mixedArray: " + mixedArray); // noraml 
 
-let mixedArray_: (string | number)[]; // either number or string
+let mixedArray_: (string | number)[]; // either number or string [ union operator]
 mixedArray_ = ['Apple', 123, 'Banana', 456, 'TypeScript'];
 console.log("ts type mixedArray: " + mixedArray_); // typescript type mixed array
 
