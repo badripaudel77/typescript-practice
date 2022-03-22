@@ -1,7 +1,7 @@
 class User {
     private username : string; // private : visible only in this class
-    public nickname: string; // public : visible in this class and in other classes
-    protected email: string; // protected : visible in this class and in within subclasses
+    public nickname: string; // public : visible in this class and in other classes [all locations]
+    protected email: string; // protected : visible in this class and in within subclasses [inheritance]
     private password : string;
 
     constructor(username: string, nickname: string, email: string , password: string= 'default_password_123') {
@@ -11,7 +11,8 @@ class User {
         this.password = password;
     }
 
-    public getPersonalInfo() : string {
+    // default access modifier is public in TS
+    getPersonalInfo() : string {
         return  `${this.username} has nickname ${this.nickname} and email ${this.email}`;
     }
 
