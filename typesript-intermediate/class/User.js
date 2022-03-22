@@ -12,7 +12,7 @@ var User = /** @class */ (function () {
     User.prototype.isPasswordValid = function (password) {
         // just a dummy validation
         //return password.includes(this.username + this.nickname) || password.includes(this.nickname + this.username);
-        return password.length > 8 && password.indexOf(this.username) === -1;
+        return password.length > 8 && password.indexOf(this.username) === -1 && this.password === null;
     };
     return User;
 }());
@@ -22,5 +22,6 @@ console.log(johnUser.getPersonalInfo());
 console.log(janeUser.getPersonalInfo());
 console.log('Is password valid ? ' + johnUser.isPasswordValid('johnny_john'));
 console.log('Is password valid ? ' + johnUser.isPasswordValid('randompwd'));
+console.log('Is password valid ? ' + janeUser.isPasswordValid('vlidonehere'));
 // johnUser.isPasswordValid(johnUser.email);// can't access protected property
 // johnUser.nickname; // can access public property

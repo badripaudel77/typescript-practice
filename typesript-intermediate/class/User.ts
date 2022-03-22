@@ -19,7 +19,7 @@ class User {
     public isPasswordValid(password: string) : boolean {
         // just a dummy validation
         //return password.includes(this.username + this.nickname) || password.includes(this.nickname + this.username);
-        return password.length > 8 && password.indexOf(this.username)===-1;
+        return password.length > 8 && password.indexOf(this.username)===-1 && this.password===null;
     }
 }
 
@@ -31,6 +31,7 @@ console.log(janeUser.getPersonalInfo());
 
 console.log('Is password valid ? ' + johnUser.isPasswordValid('johnny_john'));
 console.log('Is password valid ? ' + johnUser.isPasswordValid('randompwd'));
+console.log('Is password valid ? ' + janeUser.isPasswordValid('vlidonehere'));//janeUser.password is null so invalid password even though it is not null and valid as per method
 
 
 // johnUser.isPasswordValid(johnUser.email);// can't access protected property
