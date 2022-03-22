@@ -1,3 +1,5 @@
+// function overloading
+
 function shapeArea(length: number): number;
 
 function shapeArea(length: number, breadth: number): number;
