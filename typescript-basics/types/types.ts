@@ -1,7 +1,7 @@
 export // or export {}
 /* 
     As when  typescript is transpiled to javascript, any variable name will be present in both
-    the javascript and typescript files and it will issue and erro , to resolve this, we add export
+    the javascript and typescript files and it will issue and error , to resolve this, we add export
     or additionally export {} so that it won't be shared in global scope, it would have it's own block.
 */
 
@@ -55,7 +55,7 @@ student = {
 }
 console.log("student: " + student.name.toString() + " is " + student.age + " years old and lives in " + student.address.city + ", " + student.address.state);
 
-// I can also do to define object type
+// I can also do like this to define object type
 let student_: object;
 student_ = {
     name: 'John',

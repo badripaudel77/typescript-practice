@@ -11,7 +11,7 @@ console.log("skills: " + skills);
 // let's define an array of either string or number
 var mixedArray = ['Apple', 123, 'Banana', 456];
 console.log("js type mixedArray: " + mixedArray); // noraml 
-var mixedArray_; // either number or string
+var mixedArray_; // either number or string [ union operator]
 mixedArray_ = ['Apple', 123, 'Banana', 456, 'TypeScript'];
 console.log("ts type mixedArray: " + mixedArray_); // typescript type mixed array
 // tuple in typescript
