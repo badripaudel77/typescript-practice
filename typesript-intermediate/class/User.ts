@@ -1,3 +1,4 @@
+export {}
 class User {
     private username : string; // private : visible only in this class
     public nickname: string; // public : visible in this class and in other classes [all locations]

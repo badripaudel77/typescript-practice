@@ -1,3 +1,4 @@
+export
 // abstract class, just like in Java
 abstract class Employee {
     protected name: string;

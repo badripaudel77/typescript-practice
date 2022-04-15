@@ -1,3 +1,4 @@
+export {}
 class UserModel {
     constructor(public id: number, public name: string) {}
 
@@ -12,6 +13,6 @@ class UserServiceImpl implements UserService {
     }
 }
 
-let UserServiceImpl_ = new UserServiceImpl();
+let UserServiceImpl_:UserService = new UserServiceImpl(); // Just like in java, it could be of type Parent or child class
 let user = UserServiceImpl_.getUser();
 console.log(user.name + " " + user.id);

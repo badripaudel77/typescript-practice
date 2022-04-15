@@ -1,3 +1,4 @@
+export {}
 // function that takes a function as an argument and returns a message
 function greet(greetMessage: string) : string {
   return "Hola, " + greetMessage;

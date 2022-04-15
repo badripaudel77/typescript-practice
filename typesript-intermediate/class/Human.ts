@@ -1,3 +1,4 @@
+export {}
 // getter and setter 
 /*
  get and set are used to access and modify the properties of an object.

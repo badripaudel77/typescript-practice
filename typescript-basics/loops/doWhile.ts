@@ -1,3 +1,4 @@
+export {}
 let names: string[] = ['John', 'Jane', 'Mary', 'Mark', 'Bob'];
 
 let index : number = 0;

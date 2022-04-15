@@ -1,4 +1,5 @@
- // java style class with types 
+export {}
+// java style class with types 
 class Student {
     fullName : string;
     rollNo : number;

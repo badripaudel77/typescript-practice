@@ -1,3 +1,4 @@
+export {}
 // function overloading
 
 function shapeArea(length: number): number;

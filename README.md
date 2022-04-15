@@ -17,4 +17,5 @@ ________________________________________________________________________________
     The above line will generate  ``` fileName.js ``` file which is the final file to run which we can run as : 
      ``` node fileName.js ```
    If want to achieve the same thing at one go , we have a wasy : 
-    ``` tsc fileName.ts && node fileName.js ``` 
+    ``` tsc fileName.ts && node fileName.js ```
+-      

@@ -93,3 +93,8 @@ console.log("value of add(1,2): " + add(1,2));
 }
 console.log("value of product(10,12) is : " + product(10,12));
 
+// void type
+function greet(parameter:string = 'default messg') : void {
+    console.log("message is : greeting from typescript [void message]");
+}
+greet('hello');

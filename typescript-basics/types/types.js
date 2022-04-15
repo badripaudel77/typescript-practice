@@ -32,7 +32,7 @@ student = {
     }
 };
 console.log("student: " + student.name.toString() + " is " + student.age + " years old and lives in " + student.address.city + ", " + student.address.state);
-// I can also do to define object type
+// I can also do like this to define object type
 var student_;
 student_ = {
     name: 'John',
@@ -66,3 +66,8 @@ var product = function (number1, number2) {
     return number1 + number2;
 };
 console.log("value of product(10,12) is : " + product(10, 12));
+// void type
+function greet() {
+    console.log("message is : greeting from typescript [void message]");
+}
+greet();
