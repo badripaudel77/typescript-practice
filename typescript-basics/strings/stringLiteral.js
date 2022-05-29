@@ -1,10 +1,9 @@
-// String Literal Types in TypeScript
-// In TypeScript, string literal types let you define types that 
-//only accept a defined string literal.
-var dog;
-dog = 'dog'; // Ok
+"use strict";
+exports.__esModule = true;
+exports.dog = void 0;
+exports.dog = 'dog'; // Ok
 // dog = 'cat'; // Error as the required type of the variable is dog
-console.log("dog: " + dog);
+console.log("dog: " + exports.dog);
 var pet;
 pet = 'cat'; // Ok
 pet = 'dog'; // Ok
