@@ -4,7 +4,7 @@ ________________________________________________________________________________
 ##### For References : https://www.typescripttutorial.net/
 _________________________________________________________________________________________
 ### INTRODUCTION :
-   ##### TypeScript is Typed JavaScript. TypeScript adds types to JavaScript to help you speed up the development by catching errors before you even run the JavaScript code.
+   => TypeScript is Typed JavaScript. TypeScript adds types to JavaScript to help you speed up the development by catching errors before you even run the JavaScript code.
 
 ###   
 
