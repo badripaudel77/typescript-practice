@@ -3,13 +3,13 @@ ________________________________________________________________________________
 REPO: Mainted by badripaudel77
 
 ##### For References : https://www.typescripttutorial.net/
-Author of this REPO : badripaudel77
+Author of this REPOSITORY : badripaudel77
 
 _________________________________________________________________________________________
-### INTRODUCTION :
+#### INTRODUCTION :
    => TypeScript is Typed JavaScript. TypeScript adds types to JavaScript to help you speed up the development by catching errors before you even run the JavaScript code.
 
-###   
+______________________________________  
 
 - Typescript is a superset of Javascript, meaning every valid javascript code is valid typscript code as types are optional but using types gives more control for the code maintainability.
 - Typescript gives the compiled time error as it is statically typed language, thus helping in catching compile time errors which is really beneficial for the applications debugging and more.
