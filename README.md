@@ -18,4 +18,3 @@ ________________________________________________________________________________
      ``` node fileName.js ```
    If want to achieve the same thing at one go , we have a wasy : 
     ``` tsc fileName.ts && node fileName.js ```
--      
